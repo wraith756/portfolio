@@ -169,7 +169,7 @@
     var(--gradient-end)
   );
   display: inline-block;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -245,7 +245,7 @@
 }
 
 /* Contact */
-.contact {
+/* .contact {
   padding: 6rem 2rem;
   background: var(--light-color);
 }
@@ -291,7 +291,7 @@
 }
 .submit-btn:hover {
   background: var(--secondary-color);
-}
+} */
 
 /* Footer */
 .footer {
@@ -302,6 +302,16 @@
 }
 .social-links {
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a#github {
+  size: 1000px;
+}
+
+FaPhone {
+  color: white;
 }
 
 .social-links a {
